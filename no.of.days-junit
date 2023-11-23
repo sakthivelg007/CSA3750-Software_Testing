@@ -1,0 +1,19 @@
+package days1;
+import static org.junit.Assert.assertTrue;
+import java.util.*;
+public class days
+{ 
+	public static void main(String args[]) 
+	{ 
+		int m, year, week, day;  
+		m = 800; 
+		year = m / 365; 
+		assertTrue(2==year);
+		m = m % 365; 
+		System.out.println("No. of years:"+year);
+		week = m / 7;
+		m = m % 7;
+		System.out.println("No. of weeks:"+week); 
+		day = m; 
+		System.out.println("No. of days:"+day); } 
+		}

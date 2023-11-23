@@ -1,0 +1,16 @@
+package simpleinterest;
+import static org.junit.Assert.assertTrue;
+import java.util.Scanner;
+class si 
+{
+	public static void main(String[] args)
+	{ 
+
+		double P=600.0;
+		double R=600.0;
+		double T=1;
+		double SI = (P * T * R) / 100; 
+		System.out.println("Simple interest = " + SI);
+		assertTrue(3600==SI);
+	}
+}
